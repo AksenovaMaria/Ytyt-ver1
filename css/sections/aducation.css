@@ -1,0 +1,198 @@
+.aducation {
+    margin-top: 78px;
+    background: url(../../img/aducation/зшс13.png) no-repeat center/cover;
+    padding: 159px 0 34px 0;
+
+}
+
+.aducation__contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.aducation__title {
+}
+.title {
+}
+.aducation__main-title {
+}
+.aducation__text {
+max-width: 642px;
+margin-top: 26px;
+ color: black;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 20px;
+ text-align: center;
+}
+.aducation__block-img {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aducation__btn-video {
+    position: absolute;
+    margin-top: 140px;
+    transition: transform 1s;
+}
+
+.aducation__btn-video:hover{
+    transform: scale(1.3);
+}
+
+.aducation__list {
+    margin-top: 58px;
+    display: flex;
+    padding: 56px 58px 56px 90px;
+    border-radius: 40px;
+    box-shadow: 0px 81px 120px -77px rgba(34, 37, 59, 0.04);
+    background: rgb(255, 255, 255);
+    
+
+}
+.aducation-item{
+    flex-basis: 450px;
+    padding-right: 66px;
+    border-right: 1px solid #EAF2F5;
+    margin-right: 58px;
+}
+
+
+.aducation-item:last-child{
+    border-right: none;
+}
+
+
+
+.aducation__num {
+color: #38BFF2;
+font-size: 77px;
+font-weight: 700;
+line-height: 30px;
+}
+
+.aducation__title{
+margin-top: 20px;
+font-family: Gilroy SemiBold;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+color: #22253B;
+}
+
+.aducation__text{
+margin-top: 19px;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+color: #22253B;
+text-align: left;
+}
+
+.aducation__block {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    padding:12px 37px 11px 14px;
+    border-radius: 110px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+
+}
+.aducation__block .test{
+    padding-bottom: 40px;
+}
+
+
+
+.test{
+}
+
+
+
+.test__link {
+    
+ 
+}
+.aducation__extra-text {
+max-width: 214px;
+font-family: Manrope;
+font-size: 15px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+color: #22253B;
+}
+
+
+
+@media(max-width:1000px){
+    .aducation__list{
+        flex-direction: column;
+    }
+    .aducation{
+        padding:20px 0px 4px 0px;
+    }
+    .aducation-item{
+        padding: 36px 0px 19px 0px;
+        margin: 0;
+        border-right: none;
+        border-bottom:1px solid #EAF2F5 ;
+        flex-basis: 0;
+    }
+    .aducation-item:last-child{
+        border: none;
+    }
+
+    .aducation__block{
+        flex-direction: column;
+        text-align: center;
+        column-gap: 10px;
+        width: 400px;
+    }
+}
+
+
+
+/* кнопка съезжает */
+@media(max-width:700px){
+    .aducation__btn-video {
+        margin-top: 100px;
+}
+
+@media(max-width:580px){
+    .aducation__btn-video {
+        margin-top: 80px;
+}
+
+@media(max-width:500px){
+    .aducation__btn-video {
+        margin-top: 70px;
+}
+
+@media(max-width:480px){
+    .aducation__btn-video {
+        margin-top: 60px;
+}
+
+@media(max-width:450px){
+    .aducation__btn-video {
+        margin-top: 50px;
+}
+
+@media(max-width:400px){
+    .aducation__btn-video {
+        margin-top: 40px;
+}
+
+@media(max-width:350px){
+    .aducation__btn-video {
+        margin-top: 30px;
+}
+
+

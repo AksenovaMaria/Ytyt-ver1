@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gilroy', arial;
+}
+
+
+body, html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+img, iframe{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1234px;
+    margin: 0 auto;
+    padding: 0 14px 0 12px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+.title{
+    font-family: Gilroy SemiBold;
+    font-size: clamp(1.5rem, 1.193rem + 1.401vi, 2.875rem);
+    font-weight: 600;
+    line-height: 46px;
+    text-align: center;
+    
+}

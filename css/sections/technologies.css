@@ -1,0 +1,121 @@
+.technologies {
+    margin-top: 46px;
+}
+
+.technologies__contant {
+}
+
+.technologies__info {
+    margin-top: 84px;
+    background-color: rgb(234, 242, 245);
+    border-radius: 48px;
+    padding: 43px 115px 0px 108px;
+    display: flex;
+    column-gap: 63px;
+}
+
+.technologies-img {
+}
+.technologies__data {
+}
+.technologies__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 11px;
+    margin-top: 35px;
+}
+.technologies__item {
+    padding: 11px 16px;
+    border-radius: 44px;
+    color: rgb(255, 255, 255);
+    font-family: Gilroy;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    text-wrap: nowrap;
+}
+.technologies__item_blue {
+    background-color:rgb(80, 150, 255);
+    width: 70%;
+}
+.technologies__item_yellow {
+background-color: rgb(255, 179, 89);
+width: ;
+}
+.technologies__item_orange {
+    background-color: rgb(255, 111, 80);
+    width: 28% ;
+}
+.technologies__item_green {
+    background-color: rgb(75, 208, 113);
+    width: 58% ;
+}
+.technologies__item_heavently {
+    background-color: rgb(80, 192, 255);
+    width: ;
+}
+.technologies__item_dark-blue {
+    background-color: rgb(75, 119, 185);
+    width: 25%;
+}
+.technologies__item_purple {
+    background-color: rgb(175, 147, 255);
+    width: 25%;
+}
+.technologies__text {
+color: rgb(34, 37, 59);
+font-family: Gilroy SemiBold;
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+margin-top: 30px;
+}
+
+
+@media(max-width: 1120px){
+    .technologies__info{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .technologies__list{
+        justify-content: center;
+    }
+    .technologies__text{
+        text-align: center;
+    }
+}
+
+
+@media(max-width: 690px){
+    .technologies__info{
+        padding: 16px 17px;
+    }
+    .technologies__list{
+        margin-top: 0px;
+    }
+    .technologies-img{
+        display: none;
+    }
+    .technologies__text{
+        display: none
+    }
+
+    .technologies__item{
+        width: 100%;
+    }
+
+    .technologies__item_yellow{
+        width: 48%;
+    }
+    .technologies__item_orange{
+        width: 48%;
+    }
+    .technologies__item_dark-blue{
+        width: 48%;
+    }
+    .technologies__item_purple{
+        width: 48%;
+    }
+}

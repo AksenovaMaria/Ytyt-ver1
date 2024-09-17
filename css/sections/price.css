@@ -1,0 +1,169 @@
+.price {
+    margin-top: 61px;
+    background: url(../../img/aducation/зшс13.png) no-repeat center/cover;
+    padding: 35px 0 55px 0;
+}
+
+
+.price__contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__main-title {
+}
+.price__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;  
+}
+
+.price-item {
+    display: flex;
+    padding-left: 60px;
+}
+
+.price__img{
+    width: 59px;
+    height: 59px;
+}
+
+ /* .price__img {
+    padding-left: 60px; 
+} */
+
+
+.price__text {
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+color: rgb(34, 37, 59);
+padding-left: 30px;
+max-width: 300px;
+}
+
+
+
+
+table, th, td {
+    border: none;
+    /* border-collapse: collapse; */
+    border-spacing: 0
+}
+
+
+.price__table {
+margin-top: 25px;
+padding: 30px 40px 37px 39px;
+width: 1160px;
+height: 550px;
+top: 4649px;
+left: 132px;
+gap: 0px;
+border-radius: 30px 30px 30px 30px;
+background-color: #FFFFFF;
+overflow-x: scroll !important;
+}
+
+.line-first {
+font-size: 16px;
+font-weight: 700;
+line-height: 25px;
+color: #38BFF2;
+text-align: left;
+}
+
+.line-after{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+th, td{
+    padding-left: 19px;
+}
+
+.line-white {
+
+}
+.line-grey td{
+    background-color: rgb(243, 243, 243);
+}
+
+.border{
+    border-radius: 10px 0 0 10px;
+}
+
+.border-rigth{
+    border-radius: 0px 10px 10px 0;
+}
+
+.price__explanation-text{
+margin-top: 25px;
+margin-left: 53px;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+color: #8E8E8E;
+transform: translateX(-350px);
+
+}
+.price__block {
+    margin-top: 91px;
+    display: flex;
+    /* align-items: center; */
+    column-gap: 25px;
+    padding: 65px 53px 65px 52px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #EAF2F5;
+
+}
+.price__block-img {
+    max-width: 91px;
+    
+}
+.price__extra-text {
+max-width: 600px;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+color: #22253B;
+
+}
+.test {
+}
+.test__link {
+}
+
+
+
+
+@media(max-width:840px){
+    .price__list{
+        flex-direction: column;
+        
+    }
+
+    .price-item{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .price__text{
+        padding-top: 10px;
+    }
+}
+
+@media(max-width:820px){
+    .price__block{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+        
+    }
+   
+}
